@@ -45,14 +45,5 @@ class Zoo
       "total_weight" => total_weight_of_animals,
       "street_address" => address
     }
-  end 
-
-
-
   end
-
-
-
-
-
 end

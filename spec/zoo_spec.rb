@@ -43,23 +43,6 @@ RSpec.describe Zoo do
     expect(zoo.animal_count).to eq(2)
   end
 
-  # it "adds more animals" do
-  #   zoo = Zoo.new("Bronx Zoo", "2300 Southern Blvd", "Bronx", "NY", "10460")
-  #   animal_1 = Animal.new("Sea Otter", 10, 25)
-  #   animal_2 = Animal.new("Red Panda", 5, 70)
-  #   animal_3 = Animal.new("Capybara", 100, 150)
-  #   animal_4 = Animal.new("Dolphin", 150, 200)
-  #   animals = [animal_1, animal_2, animal_3, animal_4]
-  #
-  #   zoo.add_animal(animal_1)
-  #   zoo.add_animal(animal_2)
-  #   zoo.add_animal(animal_3)
-  #   zoo.add_animal(animal_4)
-  #
-  #   expect(zoo.animals).to eq([animal_1, animal_2, animal_3, animal_4])
-  #   expect(zoo.animals.length).to eq(4)
-  # end
-
   it "can check if animals are older than" do
     zoo = Zoo.new("Bronx Zoo", "2300 Southern Blvd", "Bronx", "NY", "10460")
     animal_1 = Animal.new("Sea Otter", 10, 25)
