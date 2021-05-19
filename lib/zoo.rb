@@ -32,6 +32,27 @@ class Zoo
     old_animals
   end
 
+  def total_weight_of_animals
+    total_weight = 0
+    @inventory.each do |animal|
+      total_weight + animal.weight.to_i
+    end
+    total_weight
+  end
+
+  def details
+    detail_hash = {
+      "total_weight" => total_weight_of_animals,
+      "street_address" => address
+    }
+  end 
+
+
+
+  end
+
+
+
 
 
 end
